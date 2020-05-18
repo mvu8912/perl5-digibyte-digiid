@@ -398,4 +398,10 @@ https://digibyteforums.io/ (Has a custom interface on top)
 
 Direct Translation from PHP to Perl5 - https://github.com/DigiByte-Core/digiid-php/blob/master/DigiID.php
 
+=head1 LINKS
+
+B<Git Repo>: L<https://github.com/mvu8912/perl5-digibyte-digiid.git>
+
+B<CPAN Module>: L<https://metacpan.org/pod/DigiByte::DigiID>
+
 =cut

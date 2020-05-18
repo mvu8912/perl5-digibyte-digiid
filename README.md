@@ -98,3 +98,9 @@ https://digibyteforums.io/ (Has a custom interface on top)
 # Credit
 
 Direct Translation from PHP to Perl5 - https://github.com/DigiByte-Core/digiid-php/blob/master/DigiID.php
+
+# LINKS
+
+**Git Repo**: [https://github.com/mvu8912/perl5-digibyte-digiid.git](https://github.com/mvu8912/perl5-digibyte-digiid.git)
+
+**CPAN Module**: [https://metacpan.org/pod/DigiByte::DigiID](https://metacpan.org/pod/DigiByte::DigiID)

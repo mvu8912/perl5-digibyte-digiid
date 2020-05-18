@@ -1,0 +1,8 @@
+#!/bin/sh
+
+cd DigiByte-DigiID-*
+
+cp -v META.yml ..
+cp -v README.mkdn ../README.md
+
+docker-compose down
