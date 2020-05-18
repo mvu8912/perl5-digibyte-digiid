@@ -307,7 +307,7 @@ Perl5 implementation of [Digi-ID](https://www.digi-id.io/).
 
 =head2 Digi-ID Open Authentication Protocol
 
-Pure DigiByte sites and applications shouldn’t have to rely on artificial identification methods such as usernames and passwords. Digi-ID is an open authentication protocol allowing simple and secure authentication using public-key cryptography.
+Pure DigiByte sites and applications shouldn't have to rely on artificial identification methods such as usernames and passwords. Digi-ID is an open authentication protocol allowing simple and secure authentication using public-key cryptography.
 
 Classical password authentication is an insecure process that could be solved with public key cryptography. The problem however is that it theoretically offloads a lot of complexity and responsibility on the user. Managing private keys securely is complex. However this complexity is already addressed in the DigiByte ecosystem. So doing public key authentication is practically a free lunch to DigiByte users.
 
