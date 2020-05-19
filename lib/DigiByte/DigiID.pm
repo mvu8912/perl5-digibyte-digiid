@@ -12,7 +12,7 @@ our @EXPORT_OK = qw(
 
 use Crypto::ECC;
 use Crypt::OpenPGP::Digest;    ## RIPEMD160
-use Crypt::OpenSSL::Random;
+use Data::UUID;
 use Digest::SHA qw(sha256);
 use Math::BigInt lib => 'GMP';
 use MIME::Base64 qw(decode_base64);
@@ -34,8 +34,7 @@ my %SECP256K1    = (
 sub get_qrcode {
     my ( $server_domain, %options ) = @_;
 
-    my $nonce = $options{nonce} // unpack( "H*",
-        pack( "B*", Crypt::OpenSSL::Random::random_pseudo_bytes(16) ) );
+    my $nonce = $options{nonce} // Data::UUID->new->create_hex;
 
     my $path = $options{path} // '/callback';
 

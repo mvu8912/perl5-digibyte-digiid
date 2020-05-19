@@ -2,7 +2,9 @@
 
 cd DigiByte-DigiID-*
 
-cp -v META.yml ..
+cp -v Makefile.PL META.yml ..
 cp -v README.mkdn ../README.md
 
+cd ..
+docker-compose exec release carton exec dzil clean
 docker-compose down
